@@ -1,0 +1,135 @@
+ *{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+ }
+
+ a{
+   text-decoration: none !important;
+   color: white  !important;
+ }
+ .home{
+   display:flex;
+  }
+  .products-div{
+    width:78%;
+    display:flex;
+    justify-content:space-around;
+ }
+ .filters{
+   width:250px;
+   height:80vh;
+   background-color:#F0F0F0;
+   padding:25px;
+  }
+  .filters > div{
+    padding-bottom:10px;
+  }
+  .single-product{
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    width:250px;
+    /* height:400px; */
+    padding:10px;
+    border:2px solid lightgray;
+  }
+  .img-div > img{
+    margin-bottom:10px;
+    width:200px;
+    height:200px;
+    object-fit:cover;
+  }
+  .div-body{
+    text-align:center;
+    padding-right:20px;
+    /* border:2px solid gray; */
+  }
+  .add-btn{
+    border:none;
+    padding:5px;
+    background-color:orange;
+    color:white;
+    border-radius:8px;
+  }
+  .remove-btn{
+    border:none;
+    padding:5px;
+    background-color:red;
+    color:white;
+    border-radius:8px;
+  }
+  .cart-div{
+    padding:5px;
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+  }  
+  
+  .cart-div img {
+    width:20%;
+    height:40%;
+    border-radius:50%;
+  }
+  .cart-div p{
+    padding:5px;
+  }
+  .cart-div button{
+    font-size:18px;
+    border:none;
+    color:white;
+    padding:5px;
+    background-color:lightcoral;
+  }
+  .view-btn{
+    font-size:18px;
+    border:none;
+    color:white;
+    padding:5px;
+    text-align:center;
+    background-color:#ADD8E6;
+    cursor:pointer;
+    margin:5px;
+  }
+  .cart-div > *{
+    margin:9px;
+    flex:1;
+  }
+  
+    .checkout-btn{
+      border:none;
+      color:white;
+      padding:5px;
+      text-align:center;
+      background-color:#ADD8E6;
+      cursor:pointer;
+      margin:5px;
+      width:10rem;
+    }
+
+    .checkout-div{
+      margin-top:10px;
+      padding:10px;
+      display:flex;
+      justify-content:space-around;
+      text-align:center;
+    }
+
+    .qty{
+    padding:10px;
+    width:20%;
+    /* width:10px; */
+    height:20px;
+  }
+  .qty label{
+    margin-right:10px;
+  }
+.checkout-div > img{
+      width:15%;
+      height:30%;  
+    }
+.checkout-info{
+  width:20%;
+}
